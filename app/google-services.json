@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "383220457012",
+    "firebase_url": "https://tu-animo-diario.firebaseio.com",
+    "project_id": "tu-animo-diario",
+    "storage_bucket": "tu-animo-diario.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383220457012:android:25d5b22baf11bf88",
+        "android_client_info": {
+          "package_name": "com.ivan.tuanimodiario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383220457012-siprtbri8c48dr5el3607m66tb7ujgoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-5pVdbdsweD4V2mO6h0_fw3pK072FHIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

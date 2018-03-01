@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">¿Como vas a afrontar el dia?</string>
+    <string name="mensajeBienvenida">"Bienvenido a tu app de consulta de ánimo.\n\n¿Como vas a afrontar tu día?"</string>
+    <string name="botonInicio">"Consultar"</string>
+    <string name="nombrePersona">"Nombre</string>
+    <string name="fechaNacimiento">"Fecha Nacimiento - 01/11/1990"</string>
+    <string name="colorId">"Color que te identifica</string>
+    <string name="animal">"¿Que animal serias?"</string>
+    <string name="rata">"Hoy vas a ser estar muy susceptible pero saves mas que nadie que tienes mucha fortaleza."</string>
+    <string name="elefante">"Hoy nadie va a poder contigo, aprovecha tu fuerza interior y alcanza todo lo que te propongas.</string>
+    <string name="caballo">"Hoy vas a estar todo el dia activo/a y tu moral va a ser digna de meción."</string>
+    <string name="gato">"Hoy vas a ser percivida de manera muy tierna, pero es porque estas planeando algo."</string>
+    <string name="paloma">"Hoy vas a escapar de todos aquellos problemas de los que estas tan cansada/o."</string>
+    
+    <string name="banner">ca-app-pub-4280134931100425~5408089605</string>
+</resources>
