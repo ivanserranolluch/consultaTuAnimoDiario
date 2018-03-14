@@ -2,12 +2,18 @@ package com.ivan.tuanimodiario;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
-
+import android.widget.Toast;
 
 
 import java.util.Random;
+
+import static android.widget.Toast.LENGTH_SHORT;
+import static android.widget.Toast.makeText;
 
 public class Resultados extends AppCompatActivity {
 
@@ -55,4 +61,31 @@ public class Resultados extends AppCompatActivity {
         String res=vector[numero];
         return res;
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.menu1, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem opcionMenu){
+
+        int id1=opcionMenu.getItemId();
+
+        if (id1==R.id.pruebaDeMenu){
+            Toast toastMenu=Toast.makeText(this,"Has pulsado en el Mensaje", LENGTH_SHORT);
+            toastMenu.setGravity(Gravity.CENTER,0,0);
+            toastMenu.show();
+            return true;
+        }else{
+            Toast toastMenu= makeText(this,"Has intentado Guardar", LENGTH_SHORT);
+            toastMenu.setGravity(Gravity.CENTER,0,0);
+            toastMenu.show();
+            return true;
+        }
+
+
+
+    }
+
 }

@@ -14,7 +14,8 @@
         android:gravity="center_vertical"
         android:orientation="vertical"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp">
+        tools:layout_editor_absoluteX="2dp"
+        android:id="@+id/prueba">
 
         <EditText
             android:id="@+id/editText"
@@ -89,7 +90,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/layoutDatos">
 
         <Button
             android:id="@+id/button4"
@@ -109,6 +111,13 @@
             ads:adSize="BANNER"
             ads:adUnitId="@string/banner">
         </com.google.android.gms.ads.AdView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boton Prueba"
+            android:background="@android:color/transparent"
+            android:id="@+id/botonPrueba"/>
     </LinearLayout>
 
 
